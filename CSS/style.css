@@ -197,14 +197,8 @@ body{
 	height: 130px;
 }
 
-@media screen and (max-width: 700px) {
-	body{
-		height: 100%;
-		width: 100%;
-		margin:0px;
-		padding:0px;
-		font-family: Helvetica, Arial, sans-serif;
-	}
+@media screen and (max-width: 600px) {
+
 	.main
 {	
 	width: 100%;
@@ -344,7 +338,7 @@ body{
 
 .footer
 {
-	height: 40px ;
+	height: 30px ;
 	/*height: 40px;*/
 }
 
