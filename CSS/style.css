@@ -1,7 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root{
+    --primary-color-hue: 252;
+    --dark-color-lightness: 17%;
+    --light-color-lightness: 95%;
+    --white-color-lightness: 100%;
+
+    --color-white: hsl(252, 30%, var(--white-color-lightness));
+    --color-light: hsl(252, 30%, var(--light-color-lightness));
+    --color-gray: hsl(var(--primary-color-hue), 15%, 65%);
+    --color-primary: hsl(var(--primary-color-hue), 75%, 60%);
+    --color-secondary: hsl(252, 100%, 90%);
+    --color-success: hsl(120, 95%, 65%);
+    --color-danger: hsl(0, 95%, 65%);
+    --color-dark: hsl(252, 30%, var(--dark-color-lightness));
+    --color-black: hsl(252, 30%, 10%);
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+}
+
+
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+
 body{
-	height: 100%;
-	margin:0px;
-	padding:0px;
+	height: 60%;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -9,7 +49,7 @@ body{
 {
 	margin: 0 auto;
 	width: 960px;
-	height: 100%;
+	height: 80%;
 }
 
 /*========HEADER SECTION ===========*/
@@ -18,14 +58,15 @@ body{
 {
 	width: 100%;
 	height: 80px;
-	background-color: #009688;
+	background-color: #128d72;
+	opacity: 1;
 }
 
 
 .logoletter
 {
-	margin-top:7px;
-	margin-bottom:5px;
+	margin-top: 1px;
+	margin: bottom 10px;
 
 }
 
@@ -33,7 +74,7 @@ body{
 .loginuser /*--FORM--*/
 {
 	float:right;
-	margin-top: 8px;
+	margin-top: 18px;
 	color: white;
 	font-size: 14px;
 	display: flex;
@@ -42,8 +83,8 @@ body{
 #login tr td .inputtext 
 {
 	border: 1px solid black;
-	width: 145px;
-	height: 18px;
+	width: 165px;
+	height: 25px;
 }
 
 #login tr td 
@@ -60,17 +101,19 @@ body{
 
 #loginbutton
 {
-	border: 0px;
-	background-color: #0f5f18;
-	height: 22px;
+	border: 1px solid black;
+	background-color: #084b23;
+	width: 65px;
+	height: 26px;
 	color:white;
 	font-size:14px;
+	
 }
 
 #loginbutton:hover
 {
-	background-color: #009688;
-	border: 1px solid black;
+	background-color: #19964b;
+	border: 1px solid rgb(6, 54, 36);
 }
 
 #loginbutton:active
@@ -84,9 +127,8 @@ body{
 
 .main
 {
-	
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	background-color:#d7dbd7a6;
 	padding-bottom: 7%;
 	clear: right;
@@ -171,9 +213,10 @@ body{
 	width: 100%;
 	height: 34px;
 	font-size: 18px;
-	background-color: #00aeef;
+	background-color: #128d72;
 	color:white;
 	box-shadow: 0 6px 4px #999;
+	border-radius: 7px;
 }
 
 #joinnowbttn:hover
@@ -194,19 +237,16 @@ body{
 }
 
 @media (max-width: 900px) {
-	.header {
+.header {
 		display: flexbox;
-	
-
-	}
+}
 .main
 {	
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	background-color:#d7dbd76e;
 	padding-bottom: 7%;
 	clear: right;
-	
 }
 
 .logopic
@@ -217,7 +257,9 @@ body{
 	height: 150px;
 	opacity: 1.0;
 	transition: opacity 1s ease-in-out;
+	display: flex;
 }
+
 	.loginuser /*--FORM--*/
 {
 	float:left;
@@ -230,10 +272,9 @@ body{
 	border: 0px;
 	padding: 2px;
 	display: flex;
-	
-	
-		
+	border-radius: var(--border-radius);
 }
+
 	.wrapper
 {
 	margin: 20 10;
@@ -248,7 +289,6 @@ body{
 	height: 22px;
 	color:white;
 	font-size:14px;
-	
   }
 
 
@@ -332,13 +372,19 @@ body{
 	font-size: 13px;
 }
 
+.footer
+{	position: relative;
+	height: 15px;
+	/*height: 40px;*/
+}
+
 }
 
 /*====== FOOTER ===========*/
 
 .footer
 {
-	height: 30px ;
+	height: 15px;
 	/*height: 40px;*/
 }
 
