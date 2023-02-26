@@ -162,14 +162,14 @@
 /*post button hover effect*/
 .main .postbar .postmypost:hover
 {
-	background-color: #009688;
+	background-color: #6665ee;
 	color: white;
 }
 
 /*post button when click effect*/
 .main .postbar .postmypost:active
 {
-  background-color: #4CAF50;
+  background-color: #6665ee;
   box-shadow: 0 5px 4px #666;
   transform: translateY(5px);
 }
