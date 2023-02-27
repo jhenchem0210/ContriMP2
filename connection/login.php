@@ -11,7 +11,7 @@ if($email != false && $password != false){
         
     }
 }else{
-    header('Location: ./php/login.php');
+    header('Location: login.php');
 }
 ?>
     <!DOCTYPE html>
@@ -49,7 +49,7 @@ if($email != false && $password != false){
 		<!-- Wrapper start of heading-->
 		<div class="wrapper">
 			<!-- GPA logo -->
-			<a href="./php/login.php"><img src="./images/logo1.png" width=150 height=55 class="logoletter"/></a>
+			<a href="./connection/login.php"><img src="./images/logo1.png" width=150 height=55 class="logoletter"/></a>
 			<!-- Search bar -->
 			<form id="searching">
 			  <input type="text" name="search" placeholder="Search.." id="search">
@@ -59,7 +59,7 @@ if($email != false && $password != false){
 			<div class="icon-bar">
 			 <ul>
 			 	<!-- home -->
-			 	<li style="border-bottom: 6px solid white;"><a href="login.php" onmouseover="headerchange(1);" onmouseout="headerorigin(1);"><img src=".\images\login\home.png" id="GPA-home"><p id="p1">Home</p></a></li>
+			 	<li style="border-bottom: 6px solid white;"><a href="./connection/login.php" onmouseover="headerchange(1);" onmouseout="headerorigin(1);"><img src=".\images\login\home.png" id="GPA-home"><p id="p1">Home</p></a></li>
 			 	<!-- profile -->
 			 	<li> <a href="profile.php" onmouseover="headerchange(2);" onmouseout="headerorigin(2);"><img src=".\images\login\profile.png" id="GPA-profile"><p id="p2">Profile</p></a> </li>
 			 	<!-- society -->
