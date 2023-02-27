@@ -11,7 +11,7 @@ if($email != false && $password != false){
         
     }
 }else{
-    header('Location: login.php');
+    header('Location: ./login/home.html');
 }
 ?>
     <!DOCTYPE html>
@@ -109,8 +109,8 @@ if($email != false && $password != false){
 				</div>
 				<div id="styleswitch" class="lamp">  
   					<ul>
-    				<p class="lampdark"><a class="lampdark" href="javascript:setStyle('default');"><img src="images/lightbulb-png-834.png"/></a></p>
-    				<p class="lamplight"><a class="lamplight" href="javascript:setStyle('light')"><img src="images/light-bulb-png-819.png"/></a></p>
+    				<p class="lampdark"><a class="lampdark" href="javascript:setStyle('default');"><img src="images/lightbulb-png-834.png" width=50 height=25/></a></p>
+    				<p class="lamplight"><a class="lamplight" href="javascript:setStyle('light')"><img src="images/light-bulb-png-819.png" width=50 height=25/></a></p>
   					</ul> 
 				</div> 
 				<!-- End of sidebar left -->
