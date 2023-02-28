@@ -233,11 +233,11 @@
 
 #logout
 {
-	color: #009688;
+	color: #6665ee;
 	margin: 2px;
 	margin-top: 18px;
 	text-align: center;
-	background-color: #009688;
+	background-color: #6665ee;
 }
 
 #logout a
@@ -385,7 +385,7 @@
 
 h2
 {
-	color: #009688;
+	color: #6665ee;
 }
 
 h4
@@ -479,7 +479,7 @@ h4
 
 /* Set a style for all buttons */
 .Edit form button {
-    background-color: #4CAF50;
+    background-color: #6665ee;
     color: white;
     padding: 14px 20px;
     margin: 25px 0 6px 0;

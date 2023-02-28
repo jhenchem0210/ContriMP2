@@ -1,5 +1,5 @@
 .lamp {
-    background: url(https://yourdomain/themes/images/lamp.png) transparent no-repeat center center !important;
+    background: url(images/lightbulb-png-834.png) transparent no-repeat center center !important;
     -webkit-filter: drop-shadow(0px 0px 15px rgba(0,0,0,1)) !important;
     filter: drop-shadow(0px 0px 15px rgba(0,0,0,1)) !important;
     -webkit-box-shadow: 0px 0px 10px 1px transparent !important;
@@ -9,7 +9,7 @@
     border-radius:30px;
     }
     .lamp:hover {
-    background: url(https://yourdomain/themes/images/lamp_hover.png) transparent no-repeat center center !important;
+    background: url(images/light-bulb-png-819.png) transparent no-repeat center center !important;
     -webkit-filter: drop-shadow(0px -3px 12px rgba(255,255,255,1)) !important;
     filter: drop-shadow(0px -3px 12px rgba(255,255,255,1)) !important;
     -webkit-box-shadow: 0px 0px 10px 1px transparent !important;
@@ -30,13 +30,13 @@
     display: none !important;}
     /* Button classes for the light css:*/
     .lamp {
-    background: url(https://yourdomain/themes/images/lamp_hover.png) transparent no-repeat center center !important;
+    background: url(images/light-bulb-png-819.png) transparent no-repeat center center !important;
     border-radius: 30px !important;
     -webkit-filter: (0px -3px 12px rgba(255,255,0,1)) !important;
     filter: drop-shadow(0px -3px 12px rgba(255,255,0,1)) !important;
     }
     .lamp:hover {
-    background: url(https://yourdomain/themes/images/lamp.png) transparent no-repeat center center !important;
+    background: url(images/light-bulb-png-819.png) transparent no-repeat center center !important;
     border-radius: 30px !important;
     filter: invert(100%) !important;
     }

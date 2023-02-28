@@ -112,8 +112,8 @@ body{
 
 #loginbutton:hover
 {
-	background-color: #19964b;
-	border: 1px solid rgb(6, 54, 36);
+	background-color: #6665ee;
+	border: 1px solid rgb(23, 9, 65);
 }
 
 #loginbutton:active
@@ -213,7 +213,7 @@ body{
 	width: 100%;
 	height: 34px;
 	font-size: 18px;
-	background-color: #128d72;
+	background-color: #6665ee;
 	color:white;
 	box-shadow: 0 6px 4px #999;
 	border-radius: 7px;
@@ -285,7 +285,7 @@ body{
 #loginbutton
 {
 	border: 0px;
-	background-color: #0f5f18;
+	background-color: #5f12ee;
 	height: 22px;
 	color:white;
 	font-size:14px;
@@ -419,7 +419,7 @@ body{
 
 .foot ul li a:hover
 {
-	color: #009688;
+	color: #6665ee;
 	font-size: 17px;
 }
 

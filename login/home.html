@@ -5,13 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>GoPilipinas-Adventurista Home</title>
+	<title>Beshies Home</title>
 	<!-- CSS and JavaScript references -->
 	<link rel="stylesheet" type="text/css" href="../CSS/header.css">
 	<link rel="stylesheet" type="text/css" href="../CSS/home.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/mode.css">
 	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.min.css">
 	<script src="../javascript/header.js"></script>
 	<script src="../javascript/home.js"></script>
+	<script src="./javascript/mode.js"></script>
 	<!-- Ending of CSS and JavaScrit -->
 
 </head>
@@ -23,7 +25,7 @@
 		<!-- Wrapper start of heading-->
 		<div class="wrapper">
 			<!-- GPA logo -->
-			<a href="home.html"><img src="../images/logo.png" width=120 height=45 class="logoletter"/></a>
+			<a href="home.html"><img src="../images/logo1.png" width=120 height=45 class="logoletter"/></a>
 			<!-- Search bar -->
 			<form id="searching">
 			  <input type="text" name="search" placeholder="Search.." id="search">
@@ -82,8 +84,16 @@
 					<p id="logout"><a href="../index.html">Log Out</a></p>
 				</div>
 				<!-- End of sidebar left -->
+			
+			<div id="styleswitch" class="lamp">  
+				<ul>
+			  <p class="lampdark"><a class="lampdark" href="javascript:setStyle('default');"><img src="images/lightbulb-png-834.png" width=60 height=45/></a></p>
+			  <p class="lamplight"><a class="lamplight" href="javascript:setStyle('light')"><img src="images/light-bulb-png-819.png" width=60 height=45/></a></p>
+				</ul> 
+		  </div> 
 			</div>
 			<!-- End of leftfixed -->
+
 
 			<!-- start of main content section -->
 			<div class="mainnotfixed" id="mainnotfixed">
