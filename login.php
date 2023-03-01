@@ -1,19 +1,5 @@
-<?php require_once "controllerUserData.php"; ?>
-<?php 
-$email = $_SESSION['email'];
-$password = $_SESSION['password'];
-if($email != false && $password != false){
-    $sql = "SELECT * FROM usertable WHERE email = '$email'";
-    $run_Sql = mysqli_query($con, $sql);
-    if($run_Sql){
-        $fetch_info = mysqli_fetch_assoc($run_Sql);
-        $status = $fetch_info['status'];
-        
-    }
-}else{
-    header('Location: ./login/home.html');
-}
-?>
+<?php require_once "./connection/controllerUserData.php"; ?>
+
     <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +35,7 @@ if($email != false && $password != false){
 		<!-- Wrapper start of heading-->
 		<div class="wrapper">
 			<!-- GPA logo -->
-			<a href="./connection/login.php"><img src="./images/logo1.png" width=150 height=55 class="logoletter"/></a>
+			<a href=""><img src="./images/logo1.png" width=150 height=55 class="logoletter"/></a>
 			<!-- Search bar -->
 			<form id="searching">
 			  <input type="text" name="search" placeholder="Search.." id="search">
@@ -59,7 +45,7 @@ if($email != false && $password != false){
 			<div class="icon-bar">
 			 <ul>
 			 	<!-- home -->
-			 	<li style="border-bottom: 6px solid white;"><a href="./connection/login.php" onmouseover="headerchange(1);" onmouseout="headerorigin(1);"><img src=".\images\login\home.png" id="GPA-home"><p id="p1">Home</p></a></li>
+			 	<li style="border-bottom: 6px solid white;"><a href="login.php" onmouseover="headerchange(1);" onmouseout="headerorigin(1);"><img src=".\images\login\home.png" id="GPA-home"><p id="p1">Home</p></a></li>
 			 	<!-- profile -->
 			 	<li> <a href="profile.php" onmouseover="headerchange(2);" onmouseout="headerorigin(2);"><img src=".\images\login\profile.png" id="GPA-profile"><p id="p2">Profile</p></a> </li>
 			 	<!-- society -->
@@ -292,6 +278,7 @@ if($email != false && $password != false){
 	<script src="./javascript/header.js"></script>
 	<script src="./javascript/home.js"></script>
 	<script src="./javascript/mode.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 </body>
 </html>
 

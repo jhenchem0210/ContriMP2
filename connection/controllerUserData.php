@@ -46,7 +46,7 @@ if(isset($_POST['signup'])){
                 if($status == 'verified'){
                   $_SESSION['email'] = $email;
                   $_SESSION['password'] = $password;
-                    header('location: ./connection/login.php');
+                    header('location: login.php');
                 }else{
                    
                     $_SESSION['info'] = $info;
@@ -87,6 +87,6 @@ if(isset($_POST['signup'])){
     
    //if login now button click
     if(isset($_POST['login-now'])){
-        header('Location: ./connection/login.php');
+        header('Location: login.php');
     }
 ?>
