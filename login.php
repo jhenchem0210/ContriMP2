@@ -45,13 +45,13 @@
 			<div class="icon-bar">
 			 <ul>
 			 	<!-- home -->
-			 	<li style="border-bottom: 6px solid white;"><a href="login.php" onmouseover="headerchange(1);" onmouseout="headerorigin(1);"><img src=".\images\login\home.png" id="GPA-home"><p id="p1">Home</p></a></li>
+			 	<li style="border-bottom: 6px solid white;"><a href="login/home.html" onmouseover="headerchange(1);" onmouseout="headerorigin(1);"><img src=".\images\login\home.png" id="GPA-home"><p id="p1">Home</p></a></li>
 			 	<!-- profile -->
-			 	<li> <a href="profile.php" onmouseover="headerchange(2);" onmouseout="headerorigin(2);"><img src=".\images\login\profile.png" id="GPA-profile"><p id="p2">Profile</p></a> </li>
+			 	<li> <a href="login/profile.html" onmouseover="headerchange(2);" onmouseout="headerorigin(2);"><img src=".\images\login\profile.png" id="GPA-profile"><p id="p2">Profile</p></a> </li>
 			 	<!-- society -->
-			 	<li><a href="society.php" onmouseover="headerchange(3);" onmouseout="headerorigin(3);"><img src=".\images\login\society.png" id="GPA-society"><p id="p3">Society</p></a></li>
+			 	<li><a href="login/society.html" onmouseover="headerchange(3);" onmouseout="headerorigin(3);"><img src=".\images\login\society.png" id="GPA-society"><p id="p3">Society</p></a></li>
 			 	<!-- message -->
-			 	<li> <a href="login/messages.php" onmouseover="headerchange(4);" onmouseout="headerorigin(4);"><img src=".\images\login\message.png" id="GPA-message"><p id="p4">Messages</p></a></li>
+			 	<li> <a href="login/messages.html" onmouseover="headerchange(4);" onmouseout="headerorigin(4);"><img src=".\images\login\message.png" id="GPA-message"><p id="p4">Messages</p></a></li>
 			 	<!-- notification -->
 			 	<li><a href="#" onmouseover="headerchange(5);" onmouseout="headerorigin(5);"><img src=".\images\login\notification.png" id="GPA-notification"><p id="p5">Notifications</p></a>
 			 	<div id="notify">
@@ -87,11 +87,11 @@
 					<p id="sidename"> <?php echo $fetch_info['name'] ?></p>
 					<p id="ssn"> Philippine Institute of Science and Techonology</p>
 					<p id="country">Philippines</p>
-					<a href="./login/profile.php" id="viewall">View All</a>
+					<a href="./login/profile.html" id="viewall">View All</a>
 					<hr>
 					<p id="nosociety">31</p>
-					<p id="societyname"><a href="society.html">Society</a></p>
-					<p id="logout"><a href="logout-user.php">Log Out</a></p>
+					<p id="societyname"><a href="login/society.html">Society</a></p>
+					<p id="logout"><a href="./connection/logout-user.php">Log Out</a></p>
 				</div>
 				<div id="styleswitch" class="lamp">  
   					<ul>
