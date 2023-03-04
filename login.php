@@ -35,7 +35,7 @@
 		<!-- Wrapper start of heading-->
 		<div class="wrapper">
 			<!-- GPA logo -->
-			<a href=""><img src="./images/logo1.png" width=150 height=55 class="logoletter"/></a>
+			<a href="login/home.html"><img src="./images/logo1.png" width=150 height=55 class="logoletter"/></a>
 			<!-- Search bar -->
 			<form id="searching">
 			  <input type="text" name="search" placeholder="Search.." id="search">
