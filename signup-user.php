@@ -4,13 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Signup Form</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/header.css">
+    <script src="./javascript/header.js"></script>
+
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 offset-md-4 form">
+    <div class="">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="container">
+        <div class="card align-items-center">
+            <div class="row">
+                <div class="col-md-3 p-5"><img src="images/logo1.png" width=380 height=300 class="logoletter"/></div>
+            <div class="col-md-4 offset-md-4 form login-form">
                 <form action="signup-user.php" method="POST" autocomplete="">
                     <h2 class="text-center">Signup Form</h2>
                     <p class="text-center">It's quick and easy.</p>
@@ -59,6 +77,6 @@
             </div>
         </div>
     </div>
-    
+ </div>  
 </body>
 </html>

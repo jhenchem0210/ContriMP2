@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Form</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" type="text/css" href="./CSS/header.css">
     <script src="./javascript/header.js"></script>
@@ -36,12 +36,12 @@
                     </div>
                     <div class="form-group">
                         <input class="form-control" type="password" name="password" placeholder="Password" required>
-                    </div>
+                    </div><br>
                     <div class="link forget-pass text-left"><a href="forgot-password.php">Forgot password?</a></div>
                     <div class="form-group">
                         <input class="form-control button" type="submit" name="login" value="Login">
                     </div>
-                    <div class="link login-link text-center">Not yet a member? <a href="connection/signup-user.php">Signup now</a></div>
+                    <div class="link login-link text-center">Not yet a member? <a href="signup-user.php">Signup now</a></div>
                 </form>
             </div>
         </div>

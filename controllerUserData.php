@@ -78,7 +78,7 @@ if(isset($_POST['signup'])){
             if($run_query){
                 $info = "Your password changed. Now you can login with your new password.";
                 $_SESSION['info'] = $info;
-                header('Location: connection/password-changed.php');
+                header('Location: password-changed.php');
             }else{
                 $errors['db-error'] = "Failed to change your password!";
             }
