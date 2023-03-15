@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-3 p-5"><img src="images/logo1.png" width=380 height=300 class="logoletter"/></div>
             <div class="col-md-4 offset-md-4 form login-form">
-                <form action="./connection/login.php" method="POST" autocomplete="">
+                <form action="./login/home.html" method="POST" autocomplete="">
                     <h2 class="text-center">Login Form</h2>
                     <p class="text-center">Login with your email and password.</p>
                     <?php
@@ -41,7 +41,7 @@
                     <div class="form-group">
                         <input class="form-control button" type="submit" name="login" value="Login">
                     </div>
-                    <div class="link login-link text-center">Not yet a member? <a href="./connection/signup-user.php">Signup now</a></div>
+                    <div class="link login-link text-center">Not yet a member? <a href="connection/signup-user.php">Signup now</a></div>
                 </form>
             </div>
         </div>

@@ -4,7 +4,7 @@ function headerchange(check)
 	if(check==1)
 	{
 		var text=document.getElementById('p1').style.color="white";
-		var img=document.getElementById('GPA-home').src="\Capstone\images\login/home-hover.png";
+		var img=document.getElementById('GPA-home').src="../images/login/home-hover.png";
 	}
 	else if(check==2)
 	{
