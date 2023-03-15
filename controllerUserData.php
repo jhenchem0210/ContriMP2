@@ -1,6 +1,6 @@
 <?php 
 session_start();
-require "./connection/connection.php";
+require "connection.php";
 $email = "";
 $name = "";
 $errors = array();
@@ -27,7 +27,7 @@ if(isset($_POST['signup'])){
         $data_check = mysqli_query($con, $insert_data);
        
         }
-                      header('location: ../join/profile1.html');
+                      header('location: ./join/profile1.html');
         }
     
 
