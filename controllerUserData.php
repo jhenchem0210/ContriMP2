@@ -1,6 +1,6 @@
 <?php 
 session_start();
-require "connection.php";
+require "./connection/connection.php";
 $email = "";
 $name = "";
 $errors = array();
@@ -46,7 +46,7 @@ if(isset($_POST['signup'])){
                 if($status == 'verified'){
                   $_SESSION['email'] = $email;
                   $_SESSION['password'] = $password;
-                    header('location: index.php');
+                    header('location: login.php');
                 }else{
                    
                     $_SESSION['info'] = $info;
