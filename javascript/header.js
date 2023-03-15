@@ -35,7 +35,7 @@ function headerorigin(check)
 	if(check==1)
 	{
 		var text=document.getElementById('p1').style.color="black";
-		var img=document.getElementById('GPA-home').src="C:Capstone/images/login/home.png";
+		var img=document.getElementById('GPA-home').src="../images/login/home.png";
 	}
 	else if(check==2)
 	{
@@ -97,8 +97,8 @@ function changelogo(connectID)
   connect.style.pointerEvents="none";
   connect.style.border= "8px solid #f3f3f3";
   connect.style.borderRadius="50%";
-  connect.style.borderTop= "8px solid #009688";
-  connect.style.borderBottom= "8px solid #009688";
+  connect.style.borderTop= "8px solid #6665ee";
+  connect.style.borderBottom= "8px solid #6665ee";
   connect.style.width= "12px";
   connect.style.height= "12px";
   connect.style.margin="0px";
@@ -116,7 +116,7 @@ function changelogo(connectID)
 	  connect.style.padding="0px";
 	  connect.style.marginRight="30px";
 	  connect.innerHTML="&#x2714";
-	  connect.style.color="#009688";
+	  connect.style.color="#6665ee";
 	  connect.style.fontSize="28px"; 
 	  connect.style.pointerEvents="none";
 	  

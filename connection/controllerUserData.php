@@ -46,7 +46,7 @@ if(isset($_POST['signup'])){
                 if($status == 'verified'){
                   $_SESSION['email'] = $email;
                   $_SESSION['password'] = $password;
-                    header('location: login.php');
+                    header('location: index.php');
                 }else{
                    
                     $_SESSION['info'] = $info;

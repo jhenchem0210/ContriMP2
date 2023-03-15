@@ -60,8 +60,8 @@ function changelogo1(connectID)
   connect.style.pointerEvents="none";
   connect.style.border= "8px solid white";
   connect.style.borderRadius="50%";
-  connect.style.borderTop= "8px solid #009688";
-  connect.style.borderBottom= "8px solid #009688";
+  connect.style.borderTop= "8px solid #6665ee";
+  connect.style.borderBottom= "8px solid #6665ee";
   connect.style.width= "12px";
   connect.style.height= "12px";
   connect.style.marginBottom="5px";
@@ -78,7 +78,7 @@ function changelogo1(connectID)
 	  connect.style.marginRight="auto";
 	  connect.style.marginLeft="auto";
 	  connect.innerHTML="&#x2714";
-	  connect.style.color="#009688";
+	  connect.style.color="#6665ee";
 	  connect.style.fontSize="28px"; 
 	  connect.style.height= "28px";
 	  connect.style.pointerEvents="none";

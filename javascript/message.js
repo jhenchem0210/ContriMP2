@@ -74,7 +74,7 @@ function select(n)
 		contactuser[i].style.border="none";
 	}
 
-	contactuser[n-1].style.borderLeft="8px solid #009688";
+	contactuser[n-1].style.borderLeft="8px solid #6665ee";
 
 	// changing name in chat section
 	var name=document.getElementsByClassName("name");
