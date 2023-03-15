@@ -4,20 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Signup Form</title>
-    <link rel="stylesheet" href="./CSS/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/header.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/header.css">
     <script src="./javascript/header.js"></script>
-
+    <script src="./javascript/register.js"></script>
 </head>
 <body>
     <div class="">
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+   
     <br>
     <br>
     <br>
@@ -72,7 +68,7 @@
                     <div class="form-group">
                         <input class="form-control button" type="submit" name="signup" value="Signup">
                     </div>
-                    <div class="link login-link text-center">Already a member? <a href="login.php">Login here</a></div>
+                    <div class="link login-link text-center">Already a member? <a href="index.php">Login here</a></div>
                 </form>
             </div>
         </div>

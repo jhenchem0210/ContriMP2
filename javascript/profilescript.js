@@ -13,6 +13,6 @@
  function outbuttoncolor()
  {
  	var out=document.getElementById("browser");
- 	out.style.backgroundColor = "#7979f3";
+ 	out.style.backgroundColor = "#6665ee";
  	out.style.width="97%";
  }

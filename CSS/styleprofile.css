@@ -19,7 +19,7 @@ body{
 {
 	width: 100%;
 	height: 80px;
-	background-color: #009688;
+	background-color: #6665ee;
 }
 
 
@@ -42,7 +42,7 @@ body{
 	
 	width: 100%;
 	height: 100%;
-	background-color:#d7dbd7;
+	background-color: #FFFFFF;
 	padding-bottom: 5%;
 }
 
@@ -69,7 +69,7 @@ body{
 {
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px solid #999999;
+	border: 2px solid #6665ee;
 	padding: 12px;
 	position: relative;
 }
@@ -108,21 +108,21 @@ body{
 	padding-right: 10px;
 }
 
-#nextbttn /*---JOING NOW BUTTON ---*/
+#nextbttn /*---JOIN NOW BUTTON ---*/
 {
 
 	border:0px;
 	width: 100%;
 	height: 34px;
 	font-size: 18px;
-	background-color: #43d854;
+	background-color: #6665ee;
 	color: black;
 	box-shadow: 0 6px 4px #999;
 }
 
 #nextbttn:hover
 {
-	background-color: #81E58D;
+	background-color: #6665ee;
 }
 
 #nextbut
@@ -133,7 +133,7 @@ body{
 
 #nextbttn:active
 {
-  background-color: #4CAF50;
+  background-color: #6665ee;
   box-shadow: 0 5px 4px #666;
   transform: translateY(8px);
 }
@@ -180,7 +180,7 @@ body{
 
 .foot ul li a:hover
 {
-	color: #009688;
+	color: #6665ee;
 	font-size: 17px;
 }
 

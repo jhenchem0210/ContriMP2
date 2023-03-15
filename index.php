@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Form</title>
-    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/styles.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/header.css">
     <script src="./javascript/header.js"></script>
+    <script src="./javascript/register.js"></script>
 </head>
 <body>
     <div class="container">
